@@ -1,0 +1,103 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(207, 206, 206);
+    box-shadow:0 0 5px 5px rgb(156, 156, 156);
+    padding:20px;
+}
+
+.leftSideFooter {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    align-items: center;
+    gap:20px;
+}
+
+.rightSideFooter {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    gap:20px;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    gap:15px;
+}
+
+.email:hover {
+    transform: scale(1.5);
+    opacity: 0.75;
+}
+
+.fb:hover {
+    transform: scale(1.5);
+    opacity: 0.75;
+}
+
+.twitter:hover {
+    transform: scale(1.5);
+    opacity: 0.75;
+}
+
+.yt:hover {
+    transform: scale(1.5);
+    opacity: 0.75;
+}
+
+.in:hover {
+    transform: scale(1.5);
+    opacity: 0.75;
+}
+
+.ig:hover {
+    transform: scale(1.5);
+    opacity: 0.75;
+}
+
+.contactTitle {
+    font-family: Arial;
+    color:rgb(51, 51, 51);
+}
+
+.email {
+    transition: transform .2s;
+}
+
+.fb {
+    transition: transform .2s;
+}
+
+.twitter {
+    transition: transform .2s;
+}
+
+.yt {
+    transition: transform .2s;
+}
+
+.in {
+    transition: transform .2s;
+}
+
+.ig {
+    transition: transform .2s;
+}
+
+.unicef {
+    width:200px;   
+    transition: transform .2s;
+}
+
+.unicefTitle {
+    font-family: Arial;
+    color:rgb(51, 51, 51);
+}
+
+.unicef:hover {
+    transform: scale(1.2);
+    opacity: 0.75;
+}
